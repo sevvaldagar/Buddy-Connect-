@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    @apply font-sans;
+    background-color: #0a0a0c;
+    color: #f0f0f2;
+  }
+
+  input::placeholder {
+    color: #3a3a52;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
